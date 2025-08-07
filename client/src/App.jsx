@@ -5,22 +5,24 @@ import Home from './pages/Home'
 import Browse from './pages/Browse'
 import Report from './pages/Report'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 
 
-const App = () => {
+function App() {
   return (
     <div>
       <Navbar />
-      <div className='min-h-screen bg-gray-100'> 
+      <div className='min-h-screen bg-gray-100'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/browse" element={<Browse />} />
           <Route path="/report" element={<Report />} />
           <Route path="/contact" element={<Contact />} />
-
         </Routes>
       </div>
+      
+      <Footer />
     </div>
   )
 }

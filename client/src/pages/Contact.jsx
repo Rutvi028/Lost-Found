@@ -1,9 +1,12 @@
 import React from 'react';
+import SocialIcons from '../components/SocialIcons';
+
 
 const Contact = () => {
   return (
     <div className="main-content" id="contact-page">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Contact Us</h2>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
@@ -22,7 +25,7 @@ const Contact = () => {
                     <i className="fas fa-map-marker-alt text-gray-400"></i>
                   </div>
                   <div className="ml-3 text-base text-gray-500">
-                    <p>Student Services Center</p>
+                    <p>📍 Student Services Center</p>
                     <p className="mt-1">University Campus</p>
                     <p className="mt-1">123 College Avenue</p>
                   </div>
@@ -32,7 +35,7 @@ const Contact = () => {
                     <i className="fas fa-envelope text-gray-400"></i>
                   </div>
                   <div className="ml-3 text-base text-gray-500">
-                    <p>lostandfound@university.edu</p>
+                    <p>📧 lostandfound@university.edu</p>
                   </div>
                 </div>
                 <div className="mt-4 flex items-start">
@@ -40,13 +43,13 @@ const Contact = () => {
                     <i className="fas fa-phone-alt text-gray-400"></i>
                   </div>
                   <div className="ml-3 text-base text-gray-500">
-                    <p>+1 (555) 123-4567</p>
+                    <p>📞 +1 (555) 123-4567</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-8">
-                <h3 className="text-lg font-medium text-gray-900">Follow Us</h3>
+                <h3 className="text-lg font-medium text-gray-900">Follow Us<br></br></h3>
                 <div className="mt-4 flex space-x-6">
                   <a href="#" className="text-gray-400 hover:text-gray-500">
                     <i className="fab fa-facebook-f text-xl"></i>
@@ -58,6 +61,7 @@ const Contact = () => {
                     <i className="fab fa-instagram text-xl"></i>
                   </a>
                 </div>
+                <SocialIcons />
               </div>
             </div>
 
