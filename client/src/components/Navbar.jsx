@@ -117,4 +117,5 @@ const Navbar = () => {
   );
 };
 
+//it is navbar
 export default Navbar;

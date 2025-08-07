@@ -100,7 +100,7 @@ function Browse() {
                 </a>
               </nav>
             </div>
-          </div> duasdhau hduawh dh
+          </div> 
         </div>
       </div>
       <h1>Testing git</h1>
